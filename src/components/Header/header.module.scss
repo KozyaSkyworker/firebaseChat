@@ -1,0 +1,26 @@
+.header{
+    background-color: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 0;
+
+    &__email{
+        color: #fff;
+        margin-right: 1em;
+    }
+
+    &__btn{
+        border: 1px solid teal;
+        background-color:skyblue;
+        font-size: 20px;
+        padding: 7px;
+        color: teal;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+
+    &__btn:hover{
+        color: #fff;
+    }
+}
